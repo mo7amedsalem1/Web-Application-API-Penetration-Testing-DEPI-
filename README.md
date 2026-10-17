@@ -19,8 +19,8 @@
 ## Install
 
 ```bash
-git clone https://github.com/youssefadelde298-star/hackerclaw.git
-cd hackerclaw
+git clone https://github.com/mo7amedsalem1/Web-Application-API-Penetration-Testing-DEPI-
+cd Web-Application-API-Penetration-Testing-DEPI-
 npm install
 ```
 
