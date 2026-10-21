@@ -1,0 +1,4 @@
+api.example.com
+admin.example.com
+shop.example.com
+staging.example.com

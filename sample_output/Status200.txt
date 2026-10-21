@@ -1,0 +1,2 @@
+https://admin.example.com
+https://api.example.com

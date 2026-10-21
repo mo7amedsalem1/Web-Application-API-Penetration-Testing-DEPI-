@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "url": "https://admin.example.com/login",
+      "status": 200,
+      "length": 4200,
+      "words": 0,
+      "lines": 0
+    },
+    {
+      "url": "https://admin.example.com/dashboard",
+      "status": 200,
+      "length": 18000,
+      "words": 0,
+      "lines": 0
+    },
+    {
+      "url": "https://admin.example.com/users",
+      "status": 200,
+      "length": 5500,
+      "words": 0,
+      "lines": 0
+    },
+    {
+      "url": "https://admin.example.com/settings",
+      "status": 200,
+      "length": 3100,
+      "words": 0,
+      "lines": 0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "https://api.example.com": {
+    "https://api.example.com/search?q=test&page=1": {
+      "q": [
+        "test"
+      ],
+      "page": [
+        "1"
+      ]
+    },
+    "https://api.example.com/search?q=demo": {
+      "q": [
+        "demo"
+      ]
+    },
+    "https://api.example.com/v1/users?limit=50&offset=0": {
+      "limit": [
+        "50"
+      ],
+      "offset": [
+        "0"
+      ]
+    },
+    "https://api.example.com/v1/products?category=electronics&sort=price": {
+      "category": [
+        "electronics"
+      ],
+      "sort": [
+        "price"
+      ]
+    }
+  },
+  "https://admin.example.com": {
+    "https://admin.example.com/users?role=admin": {
+      "role": [
+        "admin"
+      ]
+    }
+  }
+}

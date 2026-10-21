@@ -1,0 +1,11 @@
+# Web Reconnaissance Tool — Python dependencies
+# All external security tools (subfinder, httpx, ffuf, katana, gau) are
+# standalone binaries installed separately — see README.md.
+
+# No third-party Python packages are required for core functionality.
+# The tool uses only Python standard library modules:
+#   argparse, subprocess, json, pathlib, urllib.parse, logging,
+#   signal, threading, concurrent.futures, collections, re, time
+
+# Optional: richer progress display (not required)
+# rich>=13.0.0

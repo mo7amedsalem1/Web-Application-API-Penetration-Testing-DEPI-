@@ -1,0 +1,4 @@
+{"url": "https://api.example.com", "status_code": 200, "title": "API Gateway", "webserver": "nginx/1.24.0", "content_length": 1842, "location": null}
+{"url": "https://admin.example.com", "status_code": 200, "title": "Admin Panel", "webserver": "Apache/2.4.54", "content_length": 5201, "location": null}
+{"url": "https://shop.example.com", "status_code": 301, "title": null, "webserver": "cloudflare", "content_length": 0, "location": "https://www.example.com/shop"}
+{"url": "https://staging.example.com", "status_code": 403, "title": "403 Forbidden", "webserver": "nginx/1.22.1", "content_length": 153, "location": null}

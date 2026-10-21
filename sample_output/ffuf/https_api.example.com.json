@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "url": "https://api.example.com/v1/users",
+      "status": 200,
+      "length": 3140,
+      "words": 0,
+      "lines": 0
+    },
+    {
+      "url": "https://api.example.com/v1/products",
+      "status": 200,
+      "length": 8900,
+      "words": 0,
+      "lines": 0
+    },
+    {
+      "url": "https://api.example.com/v2",
+      "status": 200,
+      "length": 220,
+      "words": 0,
+      "lines": 0
+    },
+    {
+      "url": "https://api.example.com/health",
+      "status": 200,
+      "length": 27,
+      "words": 0,
+      "lines": 0
+    },
+    {
+      "url": "https://api.example.com/docs",
+      "status": 200,
+      "length": 12300,
+      "words": 0,
+      "lines": 0
+    }
+  ]
+}

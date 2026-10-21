@@ -1,0 +1,159 @@
+{
+  "domain": "example.com",
+  "summary": {
+    "total_subdomains_found": 4,
+    "total_urls_discovered": 18,
+    "total_urls_with_params": 5
+  },
+  "subdomains": {
+    "admin.example.com": {
+      "status_code": 200,
+      "title": "Admin Panel",
+      "webserver": "Apache/2.4.54",
+      "urls": [
+        {
+          "url": "https://admin.example.com",
+          "status_code": 200,
+          "source": "httpx",
+          "parameters": []
+        },
+        {
+          "url": "https://admin.example.com/dashboard",
+          "status_code": 200,
+          "source": "ffuf",
+          "parameters": []
+        },
+        {
+          "url": "https://admin.example.com/login",
+          "status_code": 200,
+          "source": "ffuf",
+          "parameters": []
+        },
+        {
+          "url": "https://admin.example.com/settings",
+          "status_code": 200,
+          "source": "ffuf",
+          "parameters": []
+        },
+        {
+          "url": "https://admin.example.com/users",
+          "status_code": 200,
+          "source": "ffuf",
+          "parameters": []
+        },
+        {
+          "url": "https://admin.example.com/users?role=admin",
+          "status_code": null,
+          "source": "crawl/gau",
+          "parameters": [
+            "role"
+          ]
+        }
+      ]
+    },
+    "api.example.com": {
+      "status_code": 200,
+      "title": "API Gateway",
+      "webserver": "nginx/1.24.0",
+      "urls": [
+        {
+          "url": "https://api.example.com",
+          "status_code": 200,
+          "source": "httpx",
+          "parameters": []
+        },
+        {
+          "url": "https://api.example.com/docs",
+          "status_code": 200,
+          "source": "ffuf",
+          "parameters": []
+        },
+        {
+          "url": "https://api.example.com/health",
+          "status_code": 200,
+          "source": "ffuf",
+          "parameters": []
+        },
+        {
+          "url": "https://api.example.com/search?q=demo",
+          "status_code": null,
+          "source": "crawl/gau",
+          "parameters": [
+            "q"
+          ]
+        },
+        {
+          "url": "https://api.example.com/search?q=test&page=1",
+          "status_code": null,
+          "source": "crawl/gau",
+          "parameters": [
+            "page",
+            "q"
+          ]
+        },
+        {
+          "url": "https://api.example.com/v1/products",
+          "status_code": 200,
+          "source": "ffuf",
+          "parameters": []
+        },
+        {
+          "url": "https://api.example.com/v1/products?category=electronics&sort=price",
+          "status_code": null,
+          "source": "crawl/gau",
+          "parameters": [
+            "category",
+            "sort"
+          ]
+        },
+        {
+          "url": "https://api.example.com/v1/users",
+          "status_code": 200,
+          "source": "ffuf",
+          "parameters": []
+        },
+        {
+          "url": "https://api.example.com/v1/users?limit=50&offset=0",
+          "status_code": null,
+          "source": "crawl/gau",
+          "parameters": [
+            "limit",
+            "offset"
+          ]
+        },
+        {
+          "url": "https://api.example.com/v2",
+          "status_code": 200,
+          "source": "ffuf",
+          "parameters": []
+        }
+      ]
+    },
+    "shop.example.com": {
+      "status_code": 301,
+      "title": null,
+      "webserver": "cloudflare",
+      "urls": [
+        {
+          "url": "https://shop.example.com",
+          "status_code": 301,
+          "source": "httpx",
+          "parameters": []
+        }
+      ]
+    },
+    "staging.example.com": {
+      "status_code": 403,
+      "title": "403 Forbidden",
+      "webserver": "nginx/1.22.1",
+      "urls": [
+        {
+          "url": "https://staging.example.com",
+          "status_code": 403,
+          "source": "httpx",
+          "parameters": []
+        }
+      ]
+    }
+  }
+}
